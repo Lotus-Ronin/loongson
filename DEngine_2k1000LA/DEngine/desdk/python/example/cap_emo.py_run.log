@@ -1,0 +1,416 @@
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libDB.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libctrl.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb_ali.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbraw_transfer.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdesdk.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libinfer_engine.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libutils.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev_info.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdcmi.so success
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+-->loading model
+[;32musbprop.ini path=/DEngine/usbprop.ini dev_nums=1 ini_nums=1[0m
+[;32m[5,4]: in __usb_hotplug_attach_cb[0m
+Host-1[01:58:06:165] /workspace/fml/rpc/usb/rpc_usb_impl.cc:25: Try to connect server...
+
+Host-105133[01:58:06:270] /workspace/core/src/de_thread.cc:875: Queue Create 0x1221cfca0
+Host-5[01:58:06:685] /workspace/fml/infer_engine/infer_engine_host.cc:32: model load complete: host:/DEngine/model/mask/net.bin
+Dev0-1020845454: [ AIE ]: pre_func be set multi-times!!
+Host-456894[01:58:07:142] /workspace/fml/infer_engine/infer_engine_host.cc:79: Graph start...
+Host-732373[01:58:07:418] /workspace/fml/infer_engine/infer_engine_host.cc:32: model load complete: host:/DEngine/model/emotion/net.bin
+Host-1056963[01:58:07:742] /workspace/fml/infer_engine/infer_engine_host.cc:79: Graph start...
+loading model done
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Dev0-1021513775: [ AIE ]: pre_func be set multi-times!!
+[ WARN:0] global /usr/src/debug/opencv/4.5.2-r0/git/modules/videoio/src/cap_gstreamer.cpp (1081) open OpenCV | GStreamer warning: Cannot query video position: status=0, value=-1, duration=-1
+detect face cost time: 0.217210
+detect face cost time: 0.107457
+detect face cost time: 0.114571
+detect face cost time: 0.093202
+detect face cost time: 0.093792
+classes======= 0
+emotion: 0.8359375
+predict emotion cost time: 0.030285
+draw++++++++++++++++++
+text================
+detect face cost time: 0.119047
+classes======= 0
+emotion: 0.40966797
+predict emotion cost time: 0.029923
+draw++++++++++++++++++
+text================
+detect face cost time: 0.124658
+classes======= 0
+emotion: 0.35424805
+predict emotion cost time: 0.030207
+draw++++++++++++++++++
+text================
+detect face cost time: 0.085380
+classes======= 0
+emotion: 0.50683594
+predict emotion cost time: 0.030129
+draw++++++++++++++++++
+text================
+detect face cost time: 0.124151
+detect face cost time: 0.114368
+detect face cost time: 0.125001
+detect face cost time: 0.112270
+detect face cost time: 0.225759
+detect face cost time: 0.145856
+detect face cost time: 0.095193
+classes======= 0
+emotion: 0.8618164
+predict emotion cost time: 0.041806
+draw++++++++++++++++++
+text================
+detect face cost time: 0.113043
+detect face cost time: 0.097173
+detect face cost time: 0.098072
+classes======= 0
+emotion: 0.9921875
+predict emotion cost time: 0.031916
+draw++++++++++++++++++
+text================
+detect face cost time: 0.081953
+detect face cost time: 0.097621
+classes======= 0
+emotion: 0.99121094
+predict emotion cost time: 0.036486
+draw++++++++++++++++++
+text================
+detect face cost time: 0.112939
+classes======= 0
+emotion: 0.99902344
+predict emotion cost time: 0.030556
+detect face cost time: 0.088715
+detect face cost time: 0.184134
+detect face cost time: 0.125359
+detect face cost time: 0.099549
+detect face cost time: 0.112481
+classes======= 0
+emotion: 0.97265625
+predict emotion cost time: 0.026422
+draw++++++++++++++++++
+text================
+detect face cost time: 0.095122
+classes======= 0
+emotion: 0.9941406
+predict emotion cost time: 0.029376
+draw++++++++++++++++++
+text================
+detect face cost time: 0.105643
+classes======= 0
+emotion: 0.9980469
+predict emotion cost time: 0.034035
+draw++++++++++++++++++
+text================
+detect face cost time: 0.091237
+classes======= 0
+emotion: 0.99121094
+predict emotion cost time: 0.033315
+draw++++++++++++++++++
+text================
+detect face cost time: 0.136907
+classes======= 0
+emotion: 0.99609375
+predict emotion cost time: 0.030915
+draw++++++++++++++++++
+text================
+detect face cost time: 0.100496
+classes======= 0
+emotion: 0.9980469
+predict emotion cost time: 0.029994
+draw++++++++++++++++++
+text================
+detect face cost time: 0.093741
+classes======= 0
+emotion: 0.9921875
+predict emotion cost time: 0.029466
+draw++++++++++++++++++
+text================
+detect face cost time: 0.098304
+classes======= 0
+emotion: 0.99609375
+predict emotion cost time: 0.034416
+draw++++++++++++++++++
+text================
+detect face cost time: 0.096761
+classes======= 0
+emotion: 0.9970703
+predict emotion cost time: 0.029416
+draw++++++++++++++++++
+text================
+detect face cost time: 0.122698
+classes======= 0
+emotion: 0.99902344
+predict emotion cost time: 0.029814
+draw++++++++++++++++++
+text================
+detect face cost time: 0.102060
+classes======= 0
+emotion: 1.0
+predict emotion cost time: 0.030929
+draw++++++++++++++++++
+text================
+detect face cost time: 0.100317
+classes======= 0
+emotion: 0.9970703
+predict emotion cost time: 0.031405
+draw++++++++++++++++++
+text================
+detect face cost time: 0.099324
+classes======= 0
+emotion: 0.99902344
+predict emotion cost time: 0.031286
+draw++++++++++++++++++
+text================
+detect face cost time: 0.088704
+classes======= 0
+emotion: 1.0
+predict emotion cost time: 0.029966
+draw++++++++++++++++++
+text================
+detect face cost time: 0.103464
+classes======= 0
+emotion: 1.0
+predict emotion cost time: 0.029851
+draw++++++++++++++++++
+text================
+detect face cost time: 0.096874
+classes======= 0
+emotion: 0.9951172
+predict emotion cost time: 0.034589
+draw++++++++++++++++++
+text================
+detect face cost time: 0.092995
+classes======= 0
+emotion: 0.99902344
+predict emotion cost time: 0.025637
+draw++++++++++++++++++
+text================
+detect face cost time: 0.177069
+classes======= 0
+emotion: 0.9970703
+predict emotion cost time: 0.047315
+draw++++++++++++++++++
+text================
+detect face cost time: 0.128795
+classes======= 0
+emotion: 0.99902344
+predict emotion cost time: 0.030377
+draw++++++++++++++++++
+text================
+detect face cost time: 0.106783
+classes======= 0
+emotion: 0.99902344
+predict emotion cost time: 0.030278
+draw++++++++++++++++++
+text================
+detect face cost time: 0.090591
+classes======= 0
+emotion: 0.99902344
+predict emotion cost time: 0.040030
+draw++++++++++++++++++
+text================
+detect face cost time: 0.113332
+detect face cost time: 0.137440
+detect face cost time: 0.112297
+detect face cost time: 0.116629
+detect face cost time: 0.115572
+detect face cost time: 0.092632
+detect face cost time: 0.107788
+detect face cost time: 0.127596
+detect face cost time: 0.129884
+classes======= 0
+emotion: 0.97265625
+predict emotion cost time: 0.041243
+draw++++++++++++++++++
+text================
+detect face cost time: 0.096391
+classes======= 0
+emotion: 0.98828125
+predict emotion cost time: 0.044502
+draw++++++++++++++++++
+text================
+detect face cost time: 0.122381
+classes======= 0
+emotion: 0.8935547
+predict emotion cost time: 0.032624
+draw++++++++++++++++++
+text================
+detect face cost time: 0.091176
+classes======= 0
+emotion: 0.9980469
+predict emotion cost time: 0.031982
+draw++++++++++++++++++
+text================
+detect face cost time: 0.097359
+classes======= 0
+emotion: 0.99609375
+predict emotion cost time: 0.030495
+draw++++++++++++++++++
+text================
+detect face cost time: 0.118145
+classes======= 0
+emotion: 0.9921875
+predict emotion cost time: 0.050147
+draw++++++++++++++++++
+text================
+detect face cost time: 0.101724
+classes======= 0
+emotion: 0.9921875
+predict emotion cost time: 0.033954
+draw++++++++++++++++++
+text================
+detect face cost time: 0.098333
+classes======= 0
+emotion: 0.9770508
+predict emotion cost time: 0.025207
+draw++++++++++++++++++
+text================
+detect face cost time: 0.090656
+classes======= 0
+emotion: 0.98828125
+predict emotion cost time: 0.033475
+draw++++++++++++++++++
+text================
+detect face cost time: 0.093302
+classes======= 0
+emotion: 0.89453125
+predict emotion cost time: 0.047186
+draw++++++++++++++++++
+text================
+detect face cost time: 0.108069
+classes======= 0
+emotion: 0.94970703
+predict emotion cost time: 0.040511
+draw++++++++++++++++++
+text================
+detect face cost time: 0.091967
+classes======= 0
+emotion: 0.9838867
+predict emotion cost time: 0.039976
+draw++++++++++++++++++
+text================
+detect face cost time: 0.094809
+classes======= 0
+emotion: 0.9863281
+predict emotion cost time: 0.040809
+draw++++++++++++++++++
+text================
+detect face cost time: 0.099726
+classes======= 0
+emotion: 0.9951172
+predict emotion cost time: 0.030785
+draw++++++++++++++++++
+text================
+detect face cost time: 0.113151
+classes======= 0
+emotion: 0.9941406
+predict emotion cost time: 0.032909
+draw++++++++++++++++++
+text================
+detect face cost time: 0.116973
+classes======= 0
+emotion: 0.97509766
+predict emotion cost time: 0.041412
+draw++++++++++++++++++
+text================
+detect face cost time: 0.093609
+classes======= 0
+emotion: 0.9980469
+predict emotion cost time: 0.030507
+draw++++++++++++++++++
+text================
+detect face cost time: 0.188649
+classes======= 0
+emotion: 0.97998047
+predict emotion cost time: 0.030014
+draw++++++++++++++++++
+text================
+detect face cost time: 0.107978
+classes======= 0
+emotion: 0.93408203
+predict emotion cost time: 0.030088
+draw++++++++++++++++++
+text================
+detect face cost time: 0.108616
+classes======= 0
+emotion: 0.9980469
+predict emotion cost time: 0.034102
+draw++++++++++++++++++
+text================
+detect face cost time: 0.090591
+classes======= 0
+emotion: 0.99902344
+predict emotion cost time: 0.039542
+draw++++++++++++++++++
+text================
+detect face cost time: 0.167554
+detect face cost time: 0.117702
+detect face cost time: 0.114439
+detect face cost time: 0.117542
+classes======= 0
+emotion: 0.9194336
+predict emotion cost time: 0.030623
+draw++++++++++++++++++
+text================
+detect face cost time: 0.115312
+detect face cost time: 0.108643
+classes======= 0
+emotion: 0.45629883
+predict emotion cost time: 0.029924
+draw++++++++++++++++++
+text================
+detect face cost time: 0.108999
+classes======= 0
+emotion: 0.3317871
+predict emotion cost time: 0.029904
+draw++++++++++++++++++
+text================
+detect face cost time: 0.113016
+classes======= 0
+emotion: 0.2824707
+predict emotion cost time: 0.030771
+draw++++++++++++++++++
+text================
+detect face cost time: 0.094416
+classes======= 0
+emotion: 0.38256836
+predict emotion cost time: 0.029876
+draw++++++++++++++++++
+text================
+detect face cost time: 0.138909
+classes======= 0
+emotion: 0.32373047
+predict emotion cost time: 0.039628
+draw++++++++++++++++++
+text================
+detect face cost time: 0.097696
+classes======= 0
+detect face cost time: 0.110265
+classes======= 0
+emotion: 0.38134766
+predict emotion cost time: 0.033398
+draw++++++++++++++++++
+text================
+detect face cost time: 0.091087
+classes======= 0
+emotion: 0.31225586
+predict emotion cost time: 0.030224
+detect face cost time: 0.177860
+classes======= 0
+emotion: 0.2800293
+predict emotion cost time: 0.029706
+detect face cost time: 0.087061
+Host-19481027[01:58:26:166] /workspace/fml/infer_engine/infer_engine_host.cc:84: Graph destruct...
+Host-20149572[01:58:26:314] /workspace/core/src/de_graph.cc:597: HostReceiver is still active.
+Host-20250028[01:58:26:415] /workspace/core/src/de_graph.cc:597: HostSender is still active.
+Host-20265945[01:58:26:951] /workspace/fml/infer_engine/infer_engine_host.cc:95: model unload complete: host:/DEngine/model/mask/net.bin
+Host-20267107[01:58:26:952] /workspace/fml/infer_engine/infer_engine_host.cc:84: Graph destruct...
+Host-20935692[01:58:27:100] /workspace/core/src/de_graph.cc:597: HostReceiver is still active.
+Host-21035966[01:58:27:201] /workspace/core/src/de_graph.cc:597: HostSender is still active.
+dev_id=0 ep=0x83 be cancelled in de_usb_recv
+terminate called without an active exception

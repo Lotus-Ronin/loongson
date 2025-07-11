@@ -1,0 +1,46 @@
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libDB.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libctrl.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb_ali.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbraw_transfer.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdesdk.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libinfer_engine.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libutils.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev_info.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdcmi.so success
+InferEngine example start...
+[;32musbprop.ini path=/DEngine/usbprop.ini dev_nums=1 ini_nums=1[0m
+[;32m[5,5]: in __usb_hotplug_attach_cb[0m
+Host-2[02:03:06:973] /workspace/fml/rpc/usb/rpc_usb_impl.cc:25: Try to connect server...
+
+Host-38623[02:03:07:012] /workspace/core/src/de_thread.cc:875: Queue Create 0x12941e0f0
+Host-5[02:03:07:317] /workspace/fml/infer_engine/infer_engine_host.cc:32: model load complete: host:/DEngine/model/mnist/net.bin
+Host-350277[02:03:07:667] /workspace/fml/infer_engine/infer_engine_host.cc:79: Graph start...
+[42m===============num result:7===============[0m
+Dev0-193862996: [ AIE ]: pre_func be set multi-times!!
+[42m===============num result:2===============[0m
+[42m===============num result:1===============[0m
+[42m===============num result:0===============[0m
+[42m===============num result:4===============[0m
+[42m===============num result:1===============[0m
+[42m===============num result:4===============[0m
+[42m===============num result:9===============[0m
+[42m===============num result:5===============[0m
+[42m===============num result:9===============[0m
+[42m===============num result:0===============[0m
+[42m===============num result:6===============[0m
+[42m===============num result:5===============[0m
+[42m===============num result:7===============[0m
+[42m===============num result:3===============[0m
+[42m===============num result:6===============[0m
+[42m===============num result:3===============[0m
+[42m===============num result:2===============[0m
+[42m===============num result:8===============[0m
+[42m===============num result:8===============[0m
+Host-16035423[02:03:23:352] /workspace/fml/infer_engine/infer_engine_host.cc:84: Graph destruct...
+Host-16435479[02:03:23:409] /workspace/core/src/de_graph.cc:597: HostReceiver is still active.
+Host-16538281[02:03:23:511] /workspace/core/src/de_graph.cc:597: HostSender is still active.
+dev_id=0 ep=0x83 be cancelled in de_usb_recv
+Host-17242549[02:03:24:559] /workspace/fml/infer_engine/infer_engine_host.cc:95: model unload complete: host:/DEngine/model/mnist/net.bin
+dev_id=0 ep=0x82 be cancelled in de_usb_recv

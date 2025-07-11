@@ -1,0 +1,38 @@
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libDB.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libctrl.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb_ali.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbraw_transfer.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdesdk.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libinfer_engine.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libutils.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev_info.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdcmi.so success
+InferEngine example start...
+[;32musbprop.ini path=/DEngine/usbprop.ini dev_nums=1 ini_nums=1[0m
+[;32m[5,5]: in __usb_hotplug_attach_cb[0m
+Host-1[02:02:05:173] /workspace/fml/rpc/usb/rpc_usb_impl.cc:25: Try to connect server...
+
+Host-25117[02:02:05:198] /workspace/core/src/de_thread.cc:875: Queue Create 0x121f79980
+Host-4[02:02:05:595] /workspace/fml/infer_engine/infer_engine_host.cc:32: model load complete: host:/DEngine/model/rubbish/net.bin
+Host-349285[02:02:05:944] /workspace/fml/infer_engine/infer_engine_host.cc:79: Graph start...
+Dev0-132139707: [ AIE ]: pre_func be set multi-times!!
+predict result: output len=1
+output[0], shape=(1, 25200, 113), dtype=float32
+predict result: output len=1
+output[0], shape=(1, 25200, 113), dtype=float32
+predict result: output len=1
+output[0], shape=(1, 25200, 113), dtype=float32
+predict result: output len=1
+output[0], shape=(1, 25200, 113), dtype=float32
+predict result: output len=1
+output[0], shape=(1, 25200, 113), dtype=float32
+predict result: output len=1
+output[0], shape=(1, 25200, 113), dtype=float32
+predict result: output len=1
+output[0], shape=(1, 25200, 113), dtype=float32
+Host-16322528[02:02:21:918] /workspace/fml/infer_engine/infer_engine_host.cc:84: Graph destruct...
+dev_id=0 ep=0x83 be cancelled in de_usb_recv
+Host-17228192[02:02:22:823] /workspace/fml/infer_engine/infer_engine_host.cc:95: model unload complete: host:/DEngine/model/rubbish/net.bin
+dev_id=0 ep=0x82 be cancelled in de_usb_recv

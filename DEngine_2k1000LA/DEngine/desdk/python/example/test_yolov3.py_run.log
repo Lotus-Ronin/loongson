@@ -1,0 +1,271 @@
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libDB.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libctrl.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb_ali.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbraw_transfer.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdesdk.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libinfer_engine.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libutils.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev_info.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdcmi.so success
+Matplotlib is building the font cache; this may take a moment.
+InferEngine example start...
+[;32musbprop.ini path=/DEngine/usbprop.ini dev_nums=1 ini_nums=1[0m
+[;32m[5,3]: in __usb_hotplug_attach_cb[0m
+Host-2[11:07:13:981] /workspace/fml/rpc/usb/rpc_usb_impl.cc:25: Try to connect server...
+
+Host-104837[11:07:14:086] /workspace/core/src/de_thread.cc:875: Queue Create 0x129c26550
+Host-5[11:07:16:136] /workspace/fml/infer_engine/infer_engine_host.cc:32: model load complete: host:/DEngine/model/caffe_yolov3_416/net.bin
+Host-454638[11:07:16:591] /workspace/fml/infer_engine/infer_engine_host.cc:79: Graph start...
+
+===========================================
+test id 1, image COCO_val2014_000000001584.jpg
+Dev0-1884148334: [ AIE ]: pre_func be set multi-times!!
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[77.5625, 377.0, 98.3125, 430.0, 0.96337890625, 0.0]
+box[1]=[112.5625, 384.5, 127.8125, 428.5, 0.90380859375, 0.0]
+box[2]=[127.75, 85.75, 517.0, 471.25, 0.64697265625, 0.0]
+box[3]=[186.125, 307.5, 257.25, 369.5, 0.5537109375, 0.0]
+box[4]=[120.125, 95.625, 547.5, 519.0, 0.9970703125, 5.0]
+box[5]=[571.5, 313.5, 609.5, 406.0, 0.966796875, 5.0]
+box[6]=[507.0, 317.5, 568.0, 383.5, 0.95751953125, 5.0]
+
+===========================================
+test id 2, image COCO_val2014_000000001268.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[500.25, 90.625, 633.0, 415.0, 0.994140625, 0.0]
+box[1]=[403.0, 206.25, 468.0, 294.5, 0.9892578125, 0.0]
+box[2]=[19.15625, 214.125, 71.375, 287.25, 0.94970703125, 0.0]
+box[3]=[0.0, 211.375, 29.5, 286.75, 0.8798828125, 0.0]
+box[4]=[497.25, 201.25, 597.0, 396.25, 0.97802734375, 26.0]
+box[5]=[194.25, 227.0, 263.75, 256.25, 0.76904296875, 14.0]
+
+===========================================
+test id 3, image COCO_val2014_000000000885.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[283.75, 165.75, 415.75, 400.75, 0.98095703125, 0.0]
+box[1]=[594.0, 33.375, 639.0, 254.125, 0.96337890625, 0.0]
+box[2]=[301.75, 84.125, 398.25, 222.375, 0.80224609375, 0.0]
+box[3]=[396.0, 270.5, 479.5, 310.5, 0.9951171875, 38.0]
+
+===========================================
+test id 4, image COCO_val2014_000000001503.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[123.375, 180.125, 158.125, 198.875, 0.99609375, 64.0]
+box[1]=[167.0, 154.875, 305.25, 199.625, 1.0, 66.0]
+box[2]=[122.9375, 12.0625, 246.75, 113.4375, 0.94384765625, 62.0]
+box[3]=[0.96875, 99.375, 121.0, 233.625, 0.9951171875, 63.0]
+
+===========================================
+test id 5, image COCO_val2014_000000001675.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[72.625, 377.25, 543.0, 472.25, 0.66943359375, 66.0]
+box[1]=[33.5, 6.375, 607.5, 310.5, 0.98828125, 15.0]
+
+===========================================
+test id 6, image COCO_val2014_000000000632.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[96.9375, 190.0, 113.8125, 233.5, 0.79541015625, 39.0]
+box[1]=[425.0, 0.0, 575.5, 411.25, 0.7568359375, 73.0]
+box[2]=[520.5, 194.375, 526.5, 225.375, 0.74267578125, 73.0]
+box[3]=[495.25, 197.25, 502.75, 226.25, 0.6923828125, 73.0]
+box[4]=[508.25, 195.125, 514.5, 226.125, 0.6923828125, 73.0]
+box[5]=[532.0, 194.375, 538.0, 225.375, 0.6220703125, 73.0]
+box[6]=[495.75, 158.0, 528.5, 166.25, 0.607421875, 73.0]
+box[7]=[492.75, 168.875, 529.5, 175.375, 0.607421875, 73.0]
+box[8]=[454.75, 193.25, 462.25, 224.25, 0.59228515625, 73.0]
+box[9]=[435.25, 191.875, 442.25, 224.875, 0.5771484375, 73.0]
+box[10]=[445.75, 147.75, 451.75, 183.0, 0.54638671875, 73.0]
+box[11]=[543.0, 190.0, 549.0, 227.5, 0.53076171875, 73.0]
+box[12]=[446.25, 195.375, 453.25, 222.625, 0.515625, 73.0]
+box[13]=[251.25, 229.75, 335.25, 318.75, 0.98095703125, 56.0]
+box[14]=[341.0, 217.5, 432.0, 347.5, 0.9970703125, 58.0]
+box[15]=[188.25, 132.0, 237.25, 226.0, 0.93310546875, 58.0]
+box[16]=[3.5, 274.5, 399.0, 471.0, 0.994140625, 59.0]
+
+===========================================
+test id 7, image COCO_val2014_000000001761.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[279.75, 138.625, 333.75, 184.125, 0.99609375, 4.0]
+box[1]=[152.375, 8.5625, 222.125, 84.625, 0.9921875, 4.0]
+
+===========================================
+test id 8, image COCO_val2014_000000000785.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[285.25, 37.375, 484.25, 393.5, 0.99609375, 0.0]
+box[1]=[195.0, 355.0, 623.0, 393.5, 0.56640625, 30.0]
+
+===========================================
+test id 9, image COCO_val2014_000000001532.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[0.0, 375.75, 117.375, 479.0, 0.9814453125, 2.0]
+box[1]=[224.0, 365.5, 414.0, 479.0, 0.97509765625, 2.0]
+box[2]=[427.5, 400.75, 492.5, 452.25, 0.9296875, 2.0]
+box[3]=[200.25, 402.5, 237.5, 430.0, 0.87255859375, 2.0]
+box[4]=[407.0, 401.0, 433.0, 439.0, 0.75927734375, 2.0]
+box[5]=[498.5, 396.5, 549.5, 442.0, 0.57666015625, 2.0]
+box[6]=[100.6875, 376.0, 187.5, 441.0, 0.5302734375, 2.0]
+box[7]=[107.1875, 374.5, 191.25, 441.5, 0.67041015625, 7.0]
+
+===========================================
+test id 10, image COCO_val2014_000000000139.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[418.5, 164.5, 460.5, 292.75, 0.97314453125, 0.0]
+box[1]=[379.75, 172.75, 404.25, 216.0, 0.69189453125, 0.0]
+box[2]=[446.25, 121.75, 462.75, 140.5, 0.69140625, 74.0]
+box[3]=[552.5, 297.25, 586.5, 400.25, 0.8740234375, 75.0]
+box[4]=[243.75, 197.0, 255.75, 213.5, 0.64501953125, 75.0]
+box[5]=[296.25, 216.5, 353.75, 319.5, 0.990234375, 56.0]
+box[6]=[381.0, 220.125, 431.5, 314.0, 0.87841796875, 56.0]
+box[7]=[360.75, 220.625, 409.75, 317.5, 0.7880859375, 56.0]
+box[8]=[228.25, 174.75, 270.25, 214.75, 0.51416015625, 58.0]
+box[9]=[6.9375, 165.875, 155.0, 267.0, 0.9912109375, 62.0]
+box[10]=[559.5, 211.5, 638.5, 285.25, 0.8896484375, 62.0]
+
+===========================================
+test id 11, image COCO_val2014_000000001000.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[266.5, 92.625, 354.5, 413.5, 0.998046875, 0.0]
+box[1]=[335.0, 147.75, 415.0, 468.75, 0.9970703125, 0.0]
+box[2]=[209.875, 182.75, 295.25, 417.75, 0.98388671875, 0.0]
+box[3]=[117.5625, 150.75, 200.25, 385.75, 0.9716796875, 0.0]
+box[4]=[408.5, 182.875, 514.5, 479.0, 0.966796875, 0.0]
+box[5]=[47.59375, 190.875, 110.0, 398.0, 0.95703125, 0.0]
+box[6]=[389.5, 173.625, 465.0, 475.5, 0.95068359375, 0.0]
+box[7]=[492.75, 196.125, 638.0, 473.5, 0.935546875, 0.0]
+box[8]=[411.5, 110.1875, 499.5, 236.0, 0.9150390625, 0.0]
+box[9]=[191.0, 148.0, 268.5, 362.0, 0.556640625, 0.0]
+box[10]=[355.25, 122.25, 405.75, 197.75, 0.5537109375, 0.0]
+box[11]=[48.875, 299.75, 90.875, 399.75, 0.9306640625, 38.0]
+box[12]=[205.75, 221.25, 261.5, 321.25, 0.841796875, 38.0]
+
+===========================================
+test id 12, image COCO_val2014_000000001353.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[68.5625, 206.5, 221.75, 354.5, 0.8671875, 0.0]
+box[1]=[146.375, 134.25, 208.125, 191.75, 0.74267578125, 0.0]
+box[2]=[222.375, 159.875, 280.5, 213.875, 0.658203125, 0.0]
+box[3]=[173.0, 199.75, 264.0, 395.25, 0.607421875, 0.0]
+box[4]=[208.75, 182.875, 271.25, 297.75, 0.50732421875, 0.0]
+
+===========================================
+test id 13, image COCO_val2014_000000000872.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[154.75, 114.75, 373.25, 601.0, 0.9990234375, 0.0]
+box[1]=[289.5, 91.5, 435.0, 563.5, 0.93408203125, 0.0]
+box[2]=[372.25, 160.25, 433.25, 200.25, 0.56884765625, 35.0]
+
+===========================================
+test id 14, image COCO_val2014_000000000802.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[235.625, 172.5, 417.0, 551.5, 0.998046875, 72.0]
+box[1]=[42.84375, 286.25, 155.875, 529.0, 0.97900390625, 69.0]
+
+===========================================
+test id 15, image COCO_val2014_000000001296.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[1.75, 13.5, 421.5, 637.5, 1.0, 0.0]
+box[1]=[270.25, 16.625, 418.25, 237.875, 0.56787109375, 0.0]
+box[2]=[286.5, 143.125, 377.5, 281.5, 0.9423828125, 67.0]
+
+===========================================
+test id 16, image COCO_val2014_000000000724.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[119.6875, 70.1875, 254.75, 227.5, 0.9990234375, 11.0]
+box[1]=[201.75, 257.75, 223.5, 287.75, 0.75390625, 11.0]
+
+===========================================
+test id 17, image COCO_val2014_000000000776.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[9.25, 254.625, 308.0, 639.0, 0.994140625, 77.0]
+box[1]=[108.625, 11.0, 425.5, 529.0, 0.9814453125, 77.0]
+
+===========================================
+test id 18, image COCO_val2014_000000000285.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[4.5, 67.0, 560.5, 635.0, 0.978515625, 21.0]
+
+===========================================
+test id 19, image COCO_val2014_000000001490.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[455.75, 117.4375, 501.75, 241.75, 0.998046875, 0.0]
+
+===========================================
+test id 20, image COCO_val2014_000000001425.jpg
+predict result: data_out len=3
+data_out[0], shape=(255, 52, 52), dtype=float16
+data_out[1], shape=(255, 13, 13), dtype=float16
+data_out[2], shape=(255, 26, 26), dtype=float16
+box[0]=[44.625, 178.375, 428.0, 401.0, 0.99609375, 48.0]
+box[1]=[491.0, 209.75, 639.0, 371.75, 0.9384765625, 45.0]
+
+profile:
+[2021-03-24 11:07:13.784327] load library cost 0.032 ms
+[2021-03-24 11:07:16.591921] engine create cost 2807.594 ms
+[2021-03-24 11:09:00.935762] data to ndarray cost 19.187 ms
+[2021-03-24 11:09:01.252240] predict batch=1 cost 316.478 ms
+[2021-03-24 11:09:01.258078] get output cost 5.838 ms
+Host-110296871[11:09:06:433] /workspace/fml/infer_engine/infer_engine_host.cc:84: Graph destruct...
+Host-112499953[11:09:06:481] /workspace/core/src/de_graph.cc:597: HostReceiver is still active.
+Host-112600457[11:09:06:582] /workspace/core/src/de_graph.cc:597: HostSender is still active.
+dev_id=0 ep=0x83 be cancelled in de_usb_recv
+Host-111505216[11:09:07:641] /workspace/fml/infer_engine/infer_engine_host.cc:95: model unload complete: host:/DEngine/model/caffe_yolov3_416/net.bin
+dev_id=0 ep=0x82 be cancelled in de_usb_recv

@@ -1,0 +1,13 @@
+/DEngine/desdk/cpp/build/CMakeFiles/edit_cache.dir
+/DEngine/desdk/cpp/build/CMakeFiles/rebuild_cache.dir
+/DEngine/desdk/cpp/build/CMakeFiles/list_install_components.dir
+/DEngine/desdk/cpp/build/CMakeFiles/install.dir
+/DEngine/desdk/cpp/build/CMakeFiles/install/local.dir
+/DEngine/desdk/cpp/build/CMakeFiles/install/strip.dir
+/DEngine/desdk/cpp/build/example/kcf_proc/CMakeFiles/kcf_proc.dir
+/DEngine/desdk/cpp/build/example/kcf_proc/CMakeFiles/edit_cache.dir
+/DEngine/desdk/cpp/build/example/kcf_proc/CMakeFiles/rebuild_cache.dir
+/DEngine/desdk/cpp/build/example/kcf_proc/CMakeFiles/list_install_components.dir
+/DEngine/desdk/cpp/build/example/kcf_proc/CMakeFiles/install.dir
+/DEngine/desdk/cpp/build/example/kcf_proc/CMakeFiles/install/local.dir
+/DEngine/desdk/cpp/build/example/kcf_proc/CMakeFiles/install/strip.dir

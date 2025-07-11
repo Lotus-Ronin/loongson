@@ -1,0 +1,34 @@
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libDB.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libctrl.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb_ali.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbraw_transfer.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdesdk.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libinfer_engine.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libutils.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev_info.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdcmi.so success
+InferEngine example start...
+[;32musbprop.ini path=/DEngine/usbprop.ini dev_nums=1 ini_nums=1[0m
+[;32m[5,5]: in __usb_hotplug_attach_cb[0m
+Host-1[01:59:54:966] /workspace/fml/rpc/usb/rpc_usb_impl.cc:25: Try to connect server...
+
+Host-2373300[01:59:57:339] /workspace/core/src/de_thread.cc:875: Queue Create 0x125af75a0
+Host-5[01:59:57:734] /workspace/fml/infer_engine/infer_engine_host.cc:32: model load complete: host:/DEngine/model/hand/net.bin
+Host-470128[01:59:58:204] /workspace/fml/infer_engine/infer_engine_host.cc:79: Graph start...
+Dev0-4328914: [ AIE ]: pre_func be set multi-times!!
+[ WARN:0] global /usr/src/debug/opencv/4.5.2-r0/git/modules/videoio/src/cap_gstreamer.cpp (1081) open OpenCV | GStreamer warning: Cannot query video position: status=0, value=-1, duration=-1
+
+profile:
+[2021-03-25 01:59:54.801504] load library cost 0.033 ms
+[2021-03-25 01:59:58.216358] engine create cost 3414.854 ms
+[2021-03-25 02:00:29.054228] data to ndarray cost 27.127 ms
+[2021-03-25 02:00:29.100687] predict batch=1 cost 46.459 ms
+[2021-03-25 02:00:29.102680] get output cost 1.993 ms
+Host-31563438[02:00:29:298] /workspace/fml/infer_engine/infer_engine_host.cc:84: Graph destruct...
+Host-34480970[02:00:29:447] /workspace/core/src/de_graph.cc:597: HostReceiver is still active.
+Host-34581291[02:00:29:547] /workspace/core/src/de_graph.cc:597: HostSender is still active.
+dev_id=0 ep=0x83 be cancelled in de_usb_recv
+Host-32872050[02:00:30:606] /workspace/fml/infer_engine/infer_engine_host.cc:95: model unload complete: host:/DEngine/model/hand/net.bin
+dev_id=0 ep=0x82 be cancelled in de_usb_recv

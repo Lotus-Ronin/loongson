@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/DEngine/desdk/cpp/build/example/kcf_proc",
+  "command": "/usr/bin/c++ -DPROJECT_SRC=\\\"/DEngine/desdk/cpp/example/kcf_proc\\\" -I/DEngine/desdk/cpp/example/kcf_proc/../../include -I/DEngine/desdk/cpp/example/kcf_proc/../../include/core -I/DEngine/desdk/cpp/example/kcf_proc/../../include/node -I/DEngine/desdk/cpp/example/kcf_proc/../nodebase/inc -faligned-new  -g -O0 -Wall -fPIC -fvisibility=hidden -std=c++11 -o CMakeFiles/kcf_proc.dir/__/nodebase/comm/download.cc.o -c /DEngine/desdk/cpp/example/nodebase/comm/download.cc",
+  "file": "/DEngine/desdk/cpp/example/nodebase/comm/download.cc"
+},
+{
+  "directory": "/DEngine/desdk/cpp/build/example/kcf_proc",
+  "command": "/usr/bin/c++ -DPROJECT_SRC=\\\"/DEngine/desdk/cpp/example/kcf_proc\\\" -I/DEngine/desdk/cpp/example/kcf_proc/../../include -I/DEngine/desdk/cpp/example/kcf_proc/../../include/core -I/DEngine/desdk/cpp/example/kcf_proc/../../include/node -I/DEngine/desdk/cpp/example/kcf_proc/../nodebase/inc -faligned-new  -g -O0 -Wall -fPIC -fvisibility=hidden -std=c++11 -o CMakeFiles/kcf_proc.dir/host/src/kcf_proc_host.cc.o -c /DEngine/desdk/cpp/example/kcf_proc/host/src/kcf_proc_host.cc",
+  "file": "/DEngine/desdk/cpp/example/kcf_proc/host/src/kcf_proc_host.cc"
+}
+]

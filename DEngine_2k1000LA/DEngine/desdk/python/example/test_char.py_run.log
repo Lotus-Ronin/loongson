@@ -1,0 +1,37 @@
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libDB.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libctrl.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb_ali.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbraw_transfer.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdesdk.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libinfer_engine.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libutils.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev_info.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdcmi.so success
+InferEngine example start...
+[;32musbprop.ini path=/DEngine/usbprop.ini dev_nums=1 ini_nums=1[0m
+[;32m[5,5]: in __usb_hotplug_attach_cb[0m
+Host-2[02:03:33:998] /workspace/fml/rpc/usb/rpc_usb_impl.cc:25: Try to connect server...
+
+Host-22436[02:03:34:020] /workspace/core/src/de_thread.cc:875: Queue Create 0x12e253250
+Host-5[02:03:34:385] /workspace/fml/infer_engine/infer_engine_host.cc:32: model load complete: host:/DEngine/model/emnist/net.bin
+Host-353362[02:03:34:738] /workspace/fml/infer_engine/infer_engine_host.cc:79: Graph start...
+['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+[42m===============num result:a===============[0m
+Dev0-220933832: [ AIE ]: pre_func be set multi-times!!
+[42m===============num result:a===============[0m
+[42m===============num result:b===============[0m
+[42m===============num result:b===============[0m
+[42m===============num result:c===============[0m
+[42m===============num result:c===============[0m
+[42m===============num result:d===============[0m
+[42m===============num result:d===============[0m
+[42m===============num result:e===============[0m
+[42m===============num result:e===============[0m
+[42m===============num result:f===============[0m
+[42m===============num result:f===============[0m
+Host-15103801[02:03:49:488] /workspace/fml/infer_engine/infer_engine_host.cc:84: Graph destruct...
+dev_id=0 ep=0x83 be cancelled in de_usb_recv
+Host-16001653[02:03:50:386] /workspace/fml/infer_engine/infer_engine_host.cc:95: model unload complete: host:/DEngine/model/emnist/net.bin
+dev_id=0 ep=0x82 be cancelled in de_usb_recv

@@ -1,0 +1,25 @@
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libDB.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libctrl.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb_ali.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbraw_transfer.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdesdk.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libinfer_engine.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusb.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libutils.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libusbdev_info.so success
+load /home/root/DEngine/desdk/platform/host_linux-loongson/lib/libdcmi.so success
+InferEngine example start...
+[;32musbprop.ini path=/DEngine/usbprop.ini dev_nums=1 ini_nums=1[0m
+[;32m[5,5]: in __usb_hotplug_attach_cb[0m
+Host-2[02:01:07:592] /workspace/fml/rpc/usb/rpc_usb_impl.cc:25: Try to connect server...
+
+Host-31869[02:01:07:624] /workspace/core/src/de_thread.cc:875: Queue Create 0x120ecab70
+Host-4[02:01:08:051] /workspace/fml/infer_engine/infer_engine_host.cc:32: model load complete: host:/DEngine/model/mask/net.bin
+Dev0-74597159: [ AIE ]: pre_func be set multi-times!!
+Host-363510[02:01:08:415] /workspace/fml/infer_engine/infer_engine_host.cc:79: Graph start...
+[ WARN:0] global /usr/src/debug/opencv/4.5.2-r0/git/modules/videoio/src/cap_gstreamer.cpp (1081) open OpenCV | GStreamer warning: Cannot query video position: status=0, value=-1, duration=-1
+Host-20278881[02:01:28:330] /workspace/fml/infer_engine/infer_engine_host.cc:84: Graph destruct...
+dev_id=0 ep=0x83 be cancelled in de_usb_recv
+Host-21276496[02:01:29:328] /workspace/fml/infer_engine/infer_engine_host.cc:95: model unload complete: host:/DEngine/model/mask/net.bin
+dev_id=0 ep=0x82 be cancelled in de_usb_recv
